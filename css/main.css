@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 79px;
+  border-bottom: 1px solid #e5e9f2;
+}
+
+.header-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 32px;
+}
+
+.logo img {
+  display: block;
+}
+
+.nav {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #18191F;
+}
+
+.nav-link {
+  color: #18191F;
+  text-decoration: none;
+  margin-right: 32px;
+}
+
+.nav-link:hover {
+  color: #8C30F5;
+}
+
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+.appstore {
+  margin-left: auto;
+  display: flex;
+}
+
+.appstore a {
+  margin-right: 14px;
+}
+
+/* Main */
+
+.main-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 197px;
+  padding-bottom: 197px;
+}
+
+.main-content {
+  font-size: 18px;
+  color: #18191F;
+}
+
+.main-header {
+  margin: 0;
+  margin-bottom: 16px;
+  width: 540px;
+  height: 196px;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 1.36;
+  font-feature-settings: 'liga'off;
+}
+
+.main-content p {
+  margin-top: 0;
+  margin-bottom: 32px;
+  width: 540px;
+  height: 64px;
+  font-weight: 400;
+  line-height: 1.78;
+  font-feature-settings: 'liga'off;
+}
+
+.btn {
+  text-decoration: none;
+  width: 284px;
+  height: 62px;
+  background: #8C30F5;
+  color: #FFF;
+  padding: 16px 35px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.main-img {
+  margin-left: 38px;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  align-items: center;
+  background: #0B0D17;
+  height: 74px;
+  color: #D9DBE1;
+}
+
+.footer-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-copyright {
+  font-size: 14px;
+}
+
+.footer-social {
+  margin-top: 6px;
+  display: flex;
+}
+
+.footer-social a {
+  margin-right: 16px;
+}
+
+.footer-social a:last-child {
+  margin-right: 0;
+}
